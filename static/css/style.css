@@ -1,0 +1,507 @@
+@font-face {
+    font-family: redrose;
+    src: url(../fonts/RedRose-Regular.ttf);
+}
+@font-face {
+    font-family: rufina;
+    src: url(../fonts/Rufina-Bold.ttf);
+}
+@font-face {
+    font-family: redhat;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black ;
+    padding-top: 22px;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 50px;
+    font-family: redrose;
+    color: black;
+}
+h1 {
+    font-family: rufina;
+}
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 21px;
+   
+}
+.container {
+        background-color: white;
+        margin: auto;
+        width: 80%;
+}
+.color-types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 14px;
+    margin-top: 40px;
+}
+.color-types li {
+    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    font-family: redhat;
+}
+.color-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.pallete-box {
+    margin-top: 45px;
+    border: 1px  rgba(32, 32, 32, 1);
+    width: 260px;
+    height: 271px;
+}
+.code-name {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.colors *{
+    height: 50px;
+    width: 260px;
+    border-radius: 4px;
+} 
+.color1  {
+    background-color: #CDF0EA;
+}
+
+.color-code {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: redhat;
+
+}
+.color-code h5 { 
+    color: black;
+    font-family: redhat;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.color-code:hover h5 {
+    visibility: visible;
+    opacity: 0.7; 
+}
+.color2 {
+    background-color: #F9F9F9;
+}
+.color3 {
+    background-color: #F6C6EA;
+}
+.color4 {
+    background-color: #FAF4B7;
+}
+.pallete-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 17px;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+}
+.color5  {
+    background-color: #D4ECDD;
+}
+.color6 {
+    background-color:#345B63;
+}
+.color7 {
+    background-color:#152D35;
+}
+.color8 {
+    background-color:#112031;
+}
+.color9  {
+    background-color: #F9F3DF;
+}
+.color10 {
+    background-color:#CDF2CA;
+}
+.color11 {
+    background-color:#FFDEFA;
+}
+.color12 {
+    background-color:#FFC898;
+}
+.color13 {
+    background-color: #3330E4;
+}
+.color14 {
+    background-color: #F637EC;
+}
+.color15 {
+    background-color:#FBB454;
+}
+.color16 {
+    background-color:#FAEA48;
+}
+.color17  {
+    background-color: #D9D7F1;
+}
+.color18 {
+    background-color: #FFFDDE;
+}
+.color19 {
+    background-color: #E7FBBE;
+}
+.color20 {
+    background-color: #FFCBCB;
+}
+.color21  {
+    background-color: #990000;
+}
+.color22 {
+    background-color: #FF5B00;
+}
+.color23 {
+    background-color: #D4D925;
+}
+.color24 {
+    background-color: #FFEE63;
+}
+
+.color25  {
+    background-color: #B91646;
+}
+.color26 {
+    background-color: #DFD8CA;
+}
+.color27 {
+    background-color:#FBF3E4;
+}
+.color28 {
+    background-color: #105652;
+}
+.color29 {
+    background-color:#CDF0EA;
+}
+.color30  {
+    background-color: #F9F9F9;
+}
+.color31 {
+    background-color: #F6C6EA;
+}
+.color32 {
+    background-color: #FAF4B7;
+}
+.color33 {
+    background-color: #FFCC1D;
+}
+.color34  {
+    background-color: #0B4619;
+}
+.color35 {
+    background-color: #116530;
+}
+.color36 {
+    background-color:#E8E8CC;
+}
+
+.color37 {
+    background-color: #CDF0EA;
+}
+.color38 {
+    background-color: #F9F9F9;
+}
+.color39{
+    background-color: #F6C6EA;
+}
+.color40 {
+    background-color: #FAF4B7;
+}
+
+.color41 {
+    background-color: #49FF00;
+}
+.color42 {
+    background-color: #FBFF00;
+}
+.color43 {
+    background-color: #FF9300;
+}
+.color44 {
+    background-color: #FF0000;
+}
+
+.color45 {
+    background-color:#06283D;
+}
+.color46 {
+    background-color: #1363DF;
+}
+.color47 {
+    background-color: #47B5FF;
+}
+.color48 {
+    background-color: #DFF6FF;
+}
+.pallete h1 {
+display: flex;
+justify-content: center;
+padding-top: 100px;
+color: white;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+
+}
+.pallete h1 {
+    background-image: url(../img/pallete.png);
+    width: 100%;
+    height: 283px;
+    margin-top: 40px;
+    margin-bottom: 250px;
+}
+.collection  {
+    height: 314px;
+   width: 346px;
+   border-color: 1px solid rgba(234, 234, 234, 1);
+   border-radius: 4px;
+}
+.collection {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 50px;
+}
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.dot1 {
+  height: 58px;
+  width: 58px;
+  background-color: rgba(209, 37, 41, 1);
+  border-radius: 50%;
+  
+}
+.dot2 {
+    height: 58px;
+    width: 58px;
+    background-color:rgba(57, 68, 48, 1);
+    border-radius: 50%;
+    
+  }
+  .dot3 {
+    height: 58px;
+    width: 58px;
+    background-color: rgba(252, 115, 159, 1);
+    border-radius: 50%;
+  }
+  .dot4 {
+    height: 58px;
+    width: 58px;
+    background-color:rgba(250, 159, 74, 1);
+    border-radius: 50%;
+    
+  }
+  .dot5 {
+    height: 58px;
+    width: 58px;
+    background-color: rgba(161, 53, 131, 1);
+    border-radius: 50%;
+  }
+  .dot-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 7px;
+  }
+  .dot6 {
+    height: 58px;
+    width: 58px;
+    background-color: rgba(255, 134, 1, 1);
+    border-radius: 50%;
+    
+  }
+  .dot7 {
+      height: 58px;
+      width: 58px;
+      background-color:rgba(242, 234, 231, 1);
+      border-radius: 50%;
+      
+    }
+    .dot8 {
+      height: 58px;
+      width: 58px;
+      background-color:rgba(67, 0, 1, 1);
+      border-radius: 50%;
+    }
+.dot9 {
+      height: 58px;
+      width: 58px;
+      background-color:rgba(21, 16, 15, 1);
+      border-radius: 50%;
+      
+    }
+.dot10 {
+      height: 58px;
+      width: 58px;
+      background-color:rgba(229, 146, 34, 1);
+      border-radius: 50%;
+    }
+
+    .dot11 {
+        height: 58px;
+        width: 58px;
+        background-color: rgba(127, 115, 181, 1);
+        border-radius: 50%;
+        
+      }
+      .dot12 {
+          height: 58px;
+          width: 58px;
+          background-color:rgba(226, 223, 230, 1);
+          border-radius: 50%;
+          
+        }
+        .dot13 {
+          height: 58px;
+          width: 58px;
+          background-color: rgba(83, 64, 144, 1);
+          border-radius: 50%;
+        }
+    .dot14 {
+          height: 58px;
+          width: 58px;
+          background-color:rgba(14, 68, 167, 1);
+          border-radius: 50%;
+          
+        }
+    .dot15 {
+          height: 58px;
+          width: 58px;
+          background-color:rgba(5, 4, 8, 1);
+          border-radius: 50%;
+        }
+        .dot16 {
+            height: 58px;
+            width: 58px;
+            background-color: rgba(246, 246, 248, 1);
+            border-radius: 50%;
+            
+          }
+          .dot17 {
+              height: 58px;
+              width: 58px;
+              background-color:rgba(253, 207, 5, 1);
+              border-radius: 50%;
+              
+            }
+            .dot18 {
+              height: 58px;
+              width: 58px;
+              background-color:rgba(73, 64, 62, 1);
+              border-radius: 50%;
+            }
+        .dot19 {
+              height: 58px;
+              width: 58px;
+              background-color:rgba(230, 217, 201, 1);
+              border-radius: 50%;
+              
+            }
+        .dot20 {
+              height: 58px;
+              width: 58px;
+              background-color:rgba(249, 232, 34, 1);
+              border-radius: 50%;
+            }
+            .dot21 {
+                height: 58px;
+                width: 58px;
+                background-color: rgba(0, 124, 194, 1);
+                border-radius: 50%;
+                
+              }
+              .dot22 {
+                  height: 58px;
+                  width: 58px;
+                  background-color:rgba(1, 160, 217, 1);
+                  border-radius: 50%;
+                  
+                }
+                .dot23 {
+                  height: 58px;
+                  width: 58px;
+                  background-color: rgba(222, 158, 0, 1);
+                  border-radius: 50%;
+                }
+            .dot24 {
+                  height: 58px;
+                  width: 58px;
+                  background-color:rgba(205, 221, 151, 1);
+                  border-radius: 50%;
+                  
+                }
+            .dot25 {
+                  height: 58px;
+                  width: 58px;
+                  background-color:rgba(223, 208, 70, 1);
+                  border-radius: 50%;
+                }
+                .dot26 {
+                    height: 58px;
+                    width: 58px;
+                    background-color:rgba(245, 188, 207, 1);
+                    border-radius: 50%;
+                    
+                  }
+                  .dot27 {
+                      height: 58px;
+                      width: 58px;
+                      background-color: rgba(225, 217, 83, 1);
+                      border-radius: 50%;
+                      
+                    }
+                    .dot28 {
+                      height: 58px;
+                      width: 58px;
+                      background-color: rgba(208, 146, 49, 1);
+                      border-radius: 50%;
+                    }
+                .dot29{
+                      height: 58px;
+                      width: 58px;
+                      background-color:rgba(86, 62, 67, 1);
+                      border-radius: 50%;
+                      
+                    }
+                .dot30 {
+                      height: 58px;
+                      width: 58px;
+                      background-color: rgba(169, 193, 42, 1);
+                      border-radius: 50%;
+                    }
+.dot-color {
+    font-family: redhat;
+}
